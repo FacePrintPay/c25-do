@@ -83,3 +83,5 @@ if [[ $1 == shellcheck || $1 == selfcheck ]] \
 || ([[ -z $1 ]] && command -V shellcheck >/dev/null 2>/dev/null); then
     shellcheck "$0"
 fi
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=do.sh
